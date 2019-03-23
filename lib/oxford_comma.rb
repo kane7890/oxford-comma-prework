@@ -6,7 +6,7 @@ def oxford_comma(array)
     arraystr = array[0]
     arraystr << " and "
     arraystr << array[1]
-    puts "Array str = #{arraystr}"
+    # puts "Array str = #{arraystr}"
   else
     arraystr = ""
     for i in 0..(length-2)
