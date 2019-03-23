@@ -3,7 +3,7 @@ def oxford_comma(array)
   if (length == 1)
     arraystr = array[0]
   elsif (length == 2)
-    arraystr << array[0]
+    arraystr = array[0]
     arraystr << "and "
     arraystr << array[1]
   else
