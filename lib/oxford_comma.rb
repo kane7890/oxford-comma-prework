@@ -3,7 +3,9 @@ def oxford_comma(array)
   if (length == 1)
     arraystr = array[length-1]
   elsif (length == 2)
-    arraystr = (array[0], array[1]).join ",")
+    arraystr << array[0]
+    arraystr << "and "
+    arraystr << array[1]
   else
     arraystr = ""
     for i in 0..(length-2)
