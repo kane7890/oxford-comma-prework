@@ -10,7 +10,7 @@ def oxford_comma(array)
   else
     arraystr = ""
     for i in 0..(length-2)
-      phrase = array[i] <<","
+      phrase = array[i] <<", "
       arraystr << phrase
     end
     arraystr << "and "
