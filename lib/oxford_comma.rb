@@ -4,7 +4,7 @@ def oxford_comma(array)
     arraystr = array[0]
   elsif (length == 2)
     arraystr = array[0]
-    arraystr << "and "
+    arraystr << " and "
     arraystr << array[1]
     puts "Array str = #{arraystr}"
   else
